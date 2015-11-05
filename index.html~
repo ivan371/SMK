@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<link rel="stylesheet" type = "text/css" href = "style.css">
+<link rel="stylesheet" type = "text/css" href = "animate.css">
+</head>
+<body bgcolor="#DCDCDC">
+<div style="width:100%; height:100%; margin:0 auto;padding:0;">
+	<div id="SMK"><a href="index.html"><img src = "CMK.jpg" width = 100% height = 100% /></a></div>
+	<div id= "adress">Тел. 8 985 923 6899, e-mail: smk@smkcentr.ru Москва, ул. Зюзинская, д.6</div>
+      <div id = "left_column">  
+      <div id="elem_column" class="transition"><a href="about.html"> <h4>Об организации</h4></a></div>
+      <div id="elem_column" class="transition"><a href="contacts.html"> <h4>Контакты</h4></a></div>
+      <div id="elem_column" class="transition">Заявка на услугу</div>
+	</div>
+	<div id="com">
+	<a id="e1" href="cur_sem.html"/> </a>
+	<a id="e2" class="animated transition" data-effect="pulse" href="menejment.html"></a>  
+	<a id="e3" class="animated transition" data-effect="rubberBand" href="news.html"></a>
+	<a id="e4" class="animated transition" data-effect="swing" href="quality.html"></a>	
+	<a id="e5" class="animated transition" data-effect="flipnY" href="ecology.html"></a>
+	<a id="e6" class="animated transition" data-effect="jello" href="depending.html"></a> 
+	<a id="e7" class="animated transition" data-effect="wobble" href="sertification.html"></a>
+	<a id="e8" class="animated transition" data-effect="tada" href="projects.html"></a>
+	<a id="e9" class="animated transition" data-effect="shake" href="teaching.html"></a> 
+	</div>
+</div>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="img.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+</body>
+</html>

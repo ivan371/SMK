@@ -1,0 +1,45 @@
+@import url('normalize.css');
+body{
+	font-family: 'Open Sans Condensed', serif;
+	background: #ddd url(../img/bg.jpg) repeat top left;
+	color: #fff;
+	background: #333;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+a{
+	color: #ddd;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+}
+.n1dev-top{
+	background: #fff;
+	background: rgba(255, 255, 255, 0.1);
+	text-transform: uppercase;
+	position: fixed;
+	width: 100%;
+	font-size: 0.68em;
+	line-height: 2.2;
+	z-index: 50000;
+	top: 0;
+	left: 0;
+}
+.n1dev-top a{
+	padding: 0 1em;
+	letter-spacing: 0.1em;
+	color: #fff;
+	display: inline-block;
+}
+.n1dev-top a:hover{
+	background: rgba(255,255,255,0.2);
+}
+.n1dev-top span.right{
+	float: right;
+}
+.n1dev-top span.right a{
+	float: left;
+	display: block;
+}

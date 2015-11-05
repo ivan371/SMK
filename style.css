@@ -1,0 +1,165 @@
+
+#SMK {
+	position: fixed;
+	margin:1px;
+	float:left; 
+	width:120px;
+	height:50px;
+	background-color: #FFFF00;
+}
+#adress
+{
+	position: fixed;
+	margin:1px;  
+	left: 130px;
+	width:89%;
+	height:50px;
+	float:left;
+	z-index: 1;
+	background-color: #FFFF00;
+}
+#left_column
+{
+	position: fixed;
+	margin:1px;
+	top: 60px; 
+	float:left; 
+	width:120px; 
+	height: 1024px;
+	background-color: #FFFF00;
+}
+#elem_column
+{
+	margin:1px;  
+	width:99%;
+	height:30%;
+	float:left;
+}
+
+a {
+    color: #000080; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+a:hover {
+    color: #E0FFFF;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #800080; /* Цвет посещённой ссылки */
+}
+
+a.rollover:hover {
+    background-position: 0 -40px; /* Смещение фона */
+   }
+   
+a.transition
+{
+	
+}
+#elem
+{
+	margin:1px;
+	width:29%;
+	height:30%;
+	float:left;
+}
+#img
+{
+	float:left;
+}
+
+#com
+{
+	position: absolute;
+	left: 131px;
+	top: 61px;
+}
+#test
+{
+	position: absolute;
+	left: 131px;
+	width: 1000px;
+	
+}
+
+#e1
+{
+	display:inline-block;
+    width:33%;
+    height:230px;
+    opacity: 1;
+    background-size: 100%;
+    background: url(i1.png) no-repeat 0 0;
+}
+
+#e5:hover
+{
+	opacity: 0.5;
+}
+
+#e2
+{
+	display:inline-block;
+    width:33%;
+    height:230px;
+    background: url(e2.png) no-repeat 0 0;
+    background-size: 100%;
+}
+#e3
+{
+	display:inline-block;
+    width:33%;
+    height:230px;
+    background: url(e3.png) no-repeat 0 0;
+    background-size: 100%;
+}
+#e4
+{
+	display:inline-block;
+   	width:33%;
+    height:230px;
+    background: url(e4.png) no-repeat 0 0;
+    background-size: 100%;
+}
+#e5
+{
+	display:inline-block;
+    width:33%;
+    height:230px;
+    background: url(e5.png) no-repeat 0 0;
+    background-size: 100%;
+}
+#e6
+{
+	display:inline-block;
+    width:355px;
+    height:230px;
+    background: url(e6.png) no-repeat 0 0;
+    background-size: 100%;
+}
+#e7
+{
+	display:inline-block;
+    width:355px;
+    height:230px;
+    background: url(e7.png) no-repeat 0 0;
+    background-size: 100%;
+}
+#e8
+{
+	display:inline-block;
+    width:355px;
+    height:230px;
+    background: url(e8.png) no-repeat 0 0;
+    background-size: 100%;
+}
+#e9
+{
+	display:inline-block;
+    width:355px;
+    height:230px;
+    background: url(e9.png) no-repeat 0 0;
+	background-size: 100%;
+}
+

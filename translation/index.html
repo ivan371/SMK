@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Коллекция плавных переходов web-страниц</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font Awesome - если нужно использовать иконки, расскомментировать -->
+	<!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet"> -->
+	<link href='http://fonts.googleapis.com/css?subset=cyrillic,latin&family=Open+Sans+Condensed:700,300' rel='stylesheet'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/multilevelmenu.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<div class="n1dev-top">
+        <a href="http://blog.n1dev.ru" target="_blank">Домой</a>
+		<a href="http://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/" target="_blank" rel="nofollow">Оригинал</a>
+        <span class="right">
+             <a href="http://blog.n1dev.ru/?p=2296">Назад к уроку</a>
+        </span>
+        <div class="clr"></div>
+    </div>
+	
+		<div class="pt-triggers">
+			<button id="iterateEffects" class="pt-touch-button">Показать следующий переход</button>
+			<div id="dl-menu" class="dl-menuwrapper">
+				<button class="dl-trigger">Выбирите переход</button>
+				<ul class="dl-menu">
+					<li>
+						<a href="#">Движение</a>
+						<ul class="dl-submenu">
+							<li data-animation="1"><a href="#">Движение справа / на лево</a></li>
+							<li data-animation="2"><a href="#">Движение слева / на право</a></li>
+							<li data-animation="3"><a href="#">Движение сверху / вниз</a></li>
+							<li data-animation="4"><a href="#">Движение снизу / вверх</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Исчезновение</a>
+						<ul class="dl-submenu">
+							<li data-animation="5"><a href="#">Исчезновение / справа</a></li>
+							<li data-animation="6"><a href="#">Исчезновение / слева</a></li>
+							<li data-animation="7"><a href="#">Исчезновение / снизу</a></li>
+							<li data-animation="8"><a href="#">Исчезновение / сверху</a></li>
+							<li data-animation="9"><a href="#">Исчезновение слева / Исчезновение справа</a></li>
+							<li data-animation="10"><a href="#">Исчезновение справа / Исчезновение слева</a></li>
+							<li data-animation="11"><a href="#">Исчезновение сверху / Исчезновение снизу</a></li>
+							<li data-animation="12"><a href="#">Исчезновение снизу / Исчезновение сверху</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Различное смягчение</a>
+						<ul class="dl-submenu">
+							<li data-animation="13"><a href="#">Различное смягчение / справа</a></li>
+							<li data-animation="14"><a href="#">Различное смягчение / слева</a></li>
+							<li data-animation="15"><a href="#">Различное смягчение / снизу</a></li>
+							<li data-animation="16"><a href="#">Различное смягчение / сверху</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Масштабирование</a>
+						<ul class="dl-submenu">
+							<li data-animation="17"><a href="#">Уменьшение / справа</a></li>
+							<li data-animation="18"><a href="#">Уменьшение / слева</a></li>
+							<li data-animation="19"><a href="#">Уменьшение / снизу</a></li>
+							<li data-animation="20"><a href="#">Уменьшение / сверху</a></li>
+							<li data-animation="21"><a href="#">Уменьшение / Уменьшение</a></li>
+							<li data-animation="22"><a href="#">Увеличение / Увеличение</a></li>
+							<li data-animation="23"><a href="#">Движение налево / Увеличение</a></li>
+							<li data-animation="24"><a href="#">Движение направо / Увеличение</a></li>
+							<li data-animation="25"><a href="#">Движение наверх / Увеличение</a></li>
+							<li data-animation="26"><a href="#">Движение вниз / Увеличение</a></li>
+							<li data-animation="27"><a href="#">Уменьшение / Увеличение</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Вращение</a>
+						<ul class="dl-submenu">
+							<li>
+								<a href="#">Отклеивание</a>
+								<ul class="dl-submenu">
+									<li data-animation="28"><a href="#">Отклеивание справа / на лево</a></li>
+									<li data-animation="29"><a href="#">Отклеивание слева / направо</a></li>
+									<li data-animation="30"><a href="#">Отклеивание сверху / вниз</a></li>
+									<li data-animation="31"><a href="#">Отклеивание снизу / вверх</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Переворот</a>
+								<ul class="dl-submenu">
+									<li data-animation="32"><a href="#">Переворот вправо</a></li>
+									<li data-animation="33"><a href="#">Переворот влево</a></li>
+									<li data-animation="34"><a href="#">Переворот вверх</a></li>
+									<li data-animation="35"><a href="#">Переворот вниз</a></li>
+								</ul>
+							</li>
+							<li data-animation="36"><a href="#">Падение</a></li>
+							<li data-animation="37"><a href="#">Газета</a></li>
+							<li>
+								<a href="#">Тяни / Толкай</a>
+								<ul class="dl-submenu">
+									<li data-animation="38"><a href="#">Тяни справа / на лево</a></li>
+									<li data-animation="39"><a href="#">Тяни слева / направо</a></li>
+									<li data-animation="40"><a href="#">Тяни сверху / вниз</a></li>
+									<li data-animation="41"><a href="#">Тяни снизу / вверх</a></li>
+
+									<li data-animation="42"><a href="#">Тяни слева / Толкай справа</a></li>
+									<li data-animation="43"><a href="#">Тяни справа / Толкай слева</a></li>
+									<li data-animation="44"><a href="#">Тяни сверху / Толкай снизу</a></li>
+									<li data-animation="45"><a href="#">Тяни снизу / Толкай сверху</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Свернуть / Развернуть</a>
+								<ul class="dl-submenu">
+									<li data-animation="46"><a href="#">Свернуть справа / на лево</a></li>
+									<li data-animation="47"><a href="#">Свернуть слева / направо</a></li>
+									<li data-animation="48"><a href="#">Свернуть сверху / вниз</a></li>
+									<li data-animation="49"><a href="#">Свернуть снизу / вверх</a></li>
+									<li data-animation="50"><a href="#">Подвинуть вправо / Развернуть слева</a></li>
+									<li data-animation="51"><a href="#">Подвинуть влево / Развернуть справа</a></li>
+									<li data-animation="52"><a href="#">Подвинуть вниз / Развернуть сверху</a></li>
+									<li data-animation="53"><a href="#">Подвинуть вверх / Развернуть снизу</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Эффект комнаты</a>
+								<ul class="dl-submenu">
+									<li data-animation="54"><a href="#">Эффект комнаты влево</a></li>
+									<li data-animation="55"><a href="#">Эффект комнаты вправо</a></li>
+									<li data-animation="56"><a href="#">Эффект комнаты вверх</a></li>
+									<li data-animation="57"><a href="#">Эффект комнаты вниз</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Куб</a>
+								<ul class="dl-submenu">
+									<li data-animation="58"><a href="#">Куб влево</a></li>
+									<li data-animation="59"><a href="#">Куб вправо</a></li>
+									<li data-animation="60"><a href="#">Куб вверх</a></li>
+									<li data-animation="61"><a href="#">Куб вниз</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Карусель</a>
+								<ul class="dl-submenu">
+									<li data-animation="62"><a href="#">Карусель влево</a></li>
+									<li data-animation="63"><a href="#">Карусель вправо</a></li>
+									<li data-animation="64"><a href="#">Карусель вверх</a></li>
+									<li data-animation="65"><a href="#">Карусель вниз</a></li>
+								</ul>
+							</li>
+							<li data-animation="66"><a href="#">Стороны</a></li>
+						</ul>
+					</li>
+					<li data-animation="67"><a href="#">Слайдшоу</a></li>
+				</ul>
+			</div><!-- /dl-menu-wrapper-->
+		</div><!-- /triggers -->
+		
+	<div id="pt-main" class="pt-perspective">
+			<div class="pt-page pt-page-1"><h1><span>Коллекция плавных</span>переходов<strong>web-страниц</strong></h1></div>
+			<div class="pt-page pt-page-2"><h1><span>Коллекция плавных</span>переходов<strong>web-страниц</strong></h1></div>
+			<div class="pt-page pt-page-3"><h1><span>Коллекция плавных</span>переходов<strong>web-страниц</strong></h1></div>
+			<div class="pt-page pt-page-4"><h1><span>Коллекция плавных</span>переходов<strong>web-страниц</strong></h1></div>
+			<div class="pt-page pt-page-5"><h1><span>Коллекция плавных</span>переходов<strong>web-страниц</strong></h1></div>
+			<div class="pt-page pt-page-6"><h1><span>Коллекция плавных</span>переходов<strong>web-страниц</strong></h1></div>
+		</div>
+
+	<div class="pt-message">
+		<p>Ваш браузер не поддерживает анимацию CSS.</p>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.dlmenu.js"></script>
+	<script src="js/pagetransitions.js"></script>
+</body>
+</html>
