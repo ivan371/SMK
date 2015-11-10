@@ -27,14 +27,14 @@ nav.menu {
 	z-index: 1;
 	background-color: #FFB90F;
 }
-#left_column
+.left_column
 {
 	position: fixed;
 	margin:1px;
 	top: 110px; 
 	float:left; 
 	width:150px; 
-	height: 1024px;
+	height: 1140px;
 	background-color: #FFB90F;
 }
 #elem_column
