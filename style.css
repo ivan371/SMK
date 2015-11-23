@@ -8,6 +8,11 @@ nav.menu {
   adding:0;
 }
 
+h1
+{
+	font-family: Times New Roman;
+}
+
 #SMK {
 	position: fixed;
 	margin:1px;

@@ -8,6 +8,11 @@ nav.menu {
   adding:0;
 }
 
+h2
+{
+	font-family: Times New Roman;
+}
+
 #SMK {
 	position: fixed;
 	margin:1px;
@@ -98,7 +103,7 @@ a.rollover:hover {
 {
 	width:100vh;
 	height:100vw;
-	background-image: url(img/e1.png);
+	background-image: url(img/p1.png);
 	background-size: cover;
 }
 
