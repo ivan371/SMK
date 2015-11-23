@@ -27,14 +27,14 @@ nav.menu {
 	z-index: 1;
 	background-color: #FFB90F;
 }
-#left_column
+.left_column
 {
 	position: fixed;
 	margin:1px;
 	top: 110px; 
 	float:left; 
 	width:150px; 
-	height: 1140px;
+	height: 70vw;
 	background-color: #FFB90F;
 }
 #elem_column
@@ -84,12 +84,22 @@ a.rollover:hover {
 	left: 161px;
 	top: 111px;
 }
-#test
+.test
 {
 	position: absolute;
 	left: 161px;
-	width: 1000px;
+	top: 111px;
+	width:100vh;
+	height:100vw;
 	
+}
+
+#cur_sem
+{
+	width:100vh;
+	height:100vw;
+	background-image: url(img/e1.png);
+	background-size: cover;
 }
 
 #e1

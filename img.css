@@ -79,18 +79,7 @@ border-bottom: 1px dotted #9F1D35;
         column-count: 3;
     }
 }
-@media only screen and (max-width: 75%) {
-	.left_column
-    {
-		height: 100px;
-    }
-}
-@media only screen and (max-width: 100%) {
-	.left_column
-    {
-		height: 1470px;
-    }
-} 
+ 
 @media only screen and (min-width: 900px) {
     .masonry {
         -moz-column-count: 4;

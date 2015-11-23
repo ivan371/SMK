@@ -9,11 +9,11 @@
 	<div id="SMK"><a href="index.html"><img src = "CMK.jpg" width = 100% height = 100% /></a></div>
 	<div id= "adress">Тел. 8 985 923 6899, e-mail: smk@smkcentr.ru Москва, ул. Зюзинская, д.6</div>
       <div id = "left_column">  
- <div id="elem_column"><a href="about.html"> <h4>Об организации</h4></a></div>
+	 <div id="elem_column"><a href="about.html"> <h4>Об организации</h4></a></div>
        <div id="elem_column"><a href="contacts.html"> <h4>Контакты</h4></a></div>
       <div id="elem_column">Заявка на услугу</div>
-  </div>
-  <div id="test" rel="bookmark">
+
+  <div class="test" rel="bookmark">
             <h2>Контакты</h2>
       <div class="entry-summary"><p>ООО «СМК-Центр»<br />
 <b>Фактический адрес:</b> Москва, ул. Зюзинская, д.6, корпус 2, офис 502<br />
